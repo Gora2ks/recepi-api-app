@@ -12,4 +12,17 @@ Creating network "recepiapiapp_default" with the default driver
 commit it:
 git add .
 
-git config core.editor 
+git config core.editor
+
+ git commit -a
+[master 5aa7242] setup django framework
+ 9 files changed, 225 insertions(+)
+ create mode 100644 Dockerfile
+ create mode 100644 app/app/__init__.py
+ create mode 100644 app/app/settings.py
+ create mode 100644 app/app/urls.py
+ create mode 100644 app/app/wsgi.py
+ create mode 100755 app/manage.py
+ create mode 100644 commands_for_create_docker_framwork
+ create mode 100644 docker-compose.yml
+ create mode 100644 requirements.txt
