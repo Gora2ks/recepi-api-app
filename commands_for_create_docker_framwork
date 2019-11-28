@@ -26,3 +26,13 @@ git config core.editor
  create mode 100644 commands_for_create_docker_framwork
  create mode 100644 docker-compose.yml
  create mode 100644 requirements.txt
+
+git push origin
+Counting objects: 16, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (15/15), done.
+Writing objects: 100% (16/16), 3.72 KiB | 1.24 MiB/s, done.
+Total 16 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), done.
+To github.com:Gora2ks/recepi-api-app.git
+   4bfffd9..47eea63  master -> master
