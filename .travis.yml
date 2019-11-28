@@ -8,4 +8,4 @@ services:
 before_script:
   - docker-compose run app sh -c "python manage.py test && flake8"
 
-script: make test
+script: true
