@@ -6,3 +6,4 @@ services:
 
 before_script:
   - docker-compose run app sh -c "python manage test && flake8"
+  - ocker-compose up --build
